@@ -1,0 +1,45 @@
+.navbar {
+    padding-left: 50px;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    color: rgb(236, 105, 70);
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar .form-inline {
+    padding-right: 50px;
+}
+
+.navbar .form-control {
+    background-color: transparent;
+    border-color: #3a3a3a;
+    width: 500px;
+    color: white;
+}
+
+.navbar .form-control:focus {
+    border-color: rgb(236, 105, 70);
+    outline: none !important;
+}
+
+.navbar button[type='submit'] {
+    background-color: rgb(236, 105, 70);
+    color: white;
+    border-color: rgb(236, 105, 70);
+}
+
+.navbar button[type='submit']:hover {
+    background-color: transparent;
+    color: rgb(236, 105, 70);
+    border-color: rgb(236, 105, 70);
+}
